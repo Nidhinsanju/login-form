@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  scroll-behavior: auto;
+}
+
+.username,
+.PassWord {
+  color: black;
+  border-radius: 20px;
+  padding: 2px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  padding: 15%;
+}
+.login,
+.signup {
+  background-color: blue;
+  padding: 5px;
+  border-radius: 20px;
+  padding-right: 10px;
+  align-content: center;
+  padding-left: 10px;
+  color: aliceblue;
+}
+.content {
+  background-color: rgb(118, 65, 202);
+  padding: 10%;
+  border-radius: 30px;
+  font-family: Arial, Helvetica;
+}
+
+:hover.login,
+:hover.signup {
+  color: black;
+  background-color: rgb(33, 106, 165);
+}
+:hover.link {
+  background-color: rgb(118, 65, 202);
+  color: black;
+}
